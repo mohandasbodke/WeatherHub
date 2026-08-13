@@ -1,0 +1,173 @@
+@charset "UTF-8";
+*{
+	padding:0;
+	margin:0;
+	
+}
+body{
+	background-image:url("img/background img.png");
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	
+	display:flex;
+	flex-direction:column;
+	 align-items:center;
+	color:white;
+}
+.heading .img h1{
+	font-size:3rem;
+	margin-bottom:0.4rem;
+	margin-top:0.2rem;
+}
+.heading img{
+	height:50px;
+	width:80px;
+	margin-top:0.2rem;
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+.img{
+	display:flex;
+}
+.heading h3{
+	margin-left:4rem;
+}
+.input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+   
+}
+.input input {
+    height: 40px;
+    width: 420px;
+    background: white;
+    border: 1px solid white;
+    box-shadow: 0 0 10px white;
+    border-radius: 20px;
+    font-size: 1rem;
+    color: black;
+    padding-left: 20px;
+    outline: none;
+}
+.first{
+	display:flex;
+	align-items: center;
+    margin-top:0.6rem;
+    height:50px;
+    width:700px;
+    background-color:rgba(0,0,0,0.2);
+    border-radius:20px;
+    justify-content:space-between;
+	
+}
+.search button{
+	background:blue;
+	color:white;
+	height:40px;
+	width:130px;
+	margin-right:0.5rem;
+	border-radius:20px;
+    outline: none;
+    border: 1px solid blue;
+     
+}
+.search button:hover{
+
+    box-shadow: 0 0 10px blue;
+    
+}
+.second{
+	
+	align-items: center;
+    margin-top:0.6rem;
+    height:280px;
+    width:700px;
+    background-color:rgba(0,0,0,0.2);
+    border-radius:20px;
+    display:flex;
+    justify-content:space-between;
+    
+}
+.second div{
+	margin-left:1rem;
+}
+.city{
+	font-size:5rem;
+	
+}
+.address{
+	display:flex;
+	font-size:1.5rem;
+}
+.temprature{
+	display:flex;
+	font-size:3rem;
+	margin-top:1rem;
+	
+}
+.tem{
+	font-size:5rem;
+}
+
+.two .img img{
+	margin-bottom:1rem;
+	margin-right:2rem;
+	height:180px;
+	width:210px;
+}
+.date{
+	display:flex;
+	bottom:220px;
+}
+.time{
+	display:flex;
+	margin-left:2rem;
+	
+}
+.description{
+	font-size:1.5rem;
+}
+.feel{
+	display:flex;
+	font-size:1.5rem;
+	padding:0px;
+	margin-right:1rem;
+}
+.three1{
+	align-items: center;
+	margin-top:0.6rem;
+    height:150px;
+    width:700px;
+    background-color:rgba(0,0,0,0.2);
+    border-radius:20px;
+    display:flex;
+    justify-content:space-between;
+}
+.three1 .one,
+.tow,
+.three,
+.four{
+	border-radius:20px;
+	border:1px solid rgba(0,0,0,0.2);
+	height:100%;
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	font-size:1.3rem;
+	
+}
+.three1 .one i,
+.tow i,
+.three i,
+.four i{
+	color:rgba(0,0,255,0.7);
+	font-size:2.5rem;
+	margin:0.4rem;
+}
